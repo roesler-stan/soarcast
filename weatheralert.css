@@ -1,0 +1,130 @@
+
+
+body {
+	background-image: url("../images/iqq_streamers.jpg");
+	background-repeat: repeat;
+    background-size: contain;
+}    
+
+div {
+	border-radius: 5px;
+}
+
+div .group-box {
+	clear:left;
+	float:left;
+    overflow: auto;
+    padding-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+div .sitebox {
+	cursor: pointer;
+	clear:left;
+	float:left;
+	width: 680px;
+	margin-left:10px;
+	margin-top: 5px;
+}
+
+div .score {
+	float:left;
+	width:325px;
+	height: 35px;
+	background-color: none;
+}
+
+div .score img {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.awall {color: #dbe7f9;}
+
+#bottom {
+    clear: both;
+    position: relative;
+    height: 30px;
+    margin-top: -30px;
+}
+
+ .go-ideal {float:left; width:35px; background-color: #21B33A; height:35px; margin-left:10px; padding:7px;} 
+ .go-likely {float:left; width:35px; background-color:#FCEC0F; height:35px; margin-left:10px; padding:7px;}
+ .go-maybe {float:left; width:35px; background-color:#C88717; height:35px; margin-left:10px; padding:7px;}
+ .go-bad {float:left; width:35px; height:35px; background-color:#909090; margin-left:10px; padding:7px; color:#E1E1E1;}
+ #lakeview_blackcap {display: none;}
+ #lakeview_dohertyslide {display: none;}
+ #lakeview_sugarhill {display: none;}
+ #lakeview_hadleybutte {display: none;}
+ #whaleback {display: none;}
+ #shasta {display: none;}
+ 
+
+a:link {color:#dbe7f9;}
+a:visited {color:#dbe7f9;}
+a:hover {
+	color:#ccffcc;
+	text-decoration: none;
+}
+a:active {color:#dbe7f9;}
+
+p a {
+	color:#dbe7f9;
+}
+
+p a:hover {
+	color:#ccffcc;
+	text-decoration: none;
+}
+
+
+ .morestuff {
+ 	display:none;
+ 	clear:left;
+ 	float:left;
+ 	width: 669px;
+ 	padding: 5px;
+ 	margin-left:30px;
+ }
+ .morestuff span {
+ 	margin-right: 5px;
+ }
+ .nws_image {float:left;clear:left;display:none;margin-left:30px;}
+ #owens_lee {display: none;}
+ #pine {display: none;}
+ #hagelstein {display: none;}
+ .plusexpand {width:30px; background-color:none; color: #FFF;float:left;font-size: large;padding-left: 10px;padding-top: 5px;height:35px;}
+ 
+ .t_day {width:30px;background-color: blue;color: #FFF;float:left;font-size: x-large;padding-left: 10px;}
+ .title_site {float:left; font-size:large; margin-left:0px; color:white; background-color:slategray; width:200px; padding-left:10px; padding-right:20px; padding-top:5px; height:35px;}
+ .title_blue {float:left; font-size:large; margin-left:0px; color:white; background-color:#6699CC; width:200px; padding-left:10px; padding-right:20px; padding-top:5px; height:35px;} 
+ .title_exp {float:left;font-size: large;margin-left: 0px;color:white;background-color: darkgray;width: 200px;padding-left: 10px;padding-right:20px;padding-top: 5px;height:35px;}
+ .time {color: #909090;margin-left: 10px;font-size:10px;}
+ .time a:link {color:#4B4B4B;}
+ .time a:visited {color:#909090;}
+ .time a:hover {color:#FFFFFF;text-decoration: none;}
+ .time a:active {color:#909090;}
+ .windy {clear:left;overflow: visible;width: 650px;height: 600px;}
+ #woodrat {display: none;}
+
+ .title-box {
+ 	clear:left;
+ 	float:left;
+ 	height:70px;
+ 	width:300px;
+ 	margin-left:40px;
+ }
+ .title-box p {
+ 	color: white;
+ }
+
+
+/*
+these had do be defined locally on HTML page for Safari mobile
+ .keys {clear:left; float:left; }
+ .keygreen {background-color:#1EFC0F; clear:left; float:left; width: 60px; text-align: center; margin-left:40px;}
+ .keylightgreen {background-color:#DCF285; color:green;float:left; margin-left:5px;width: 60px;text-align: center;}
+ .keyyellow {background-color:#FCEC0F;float:left; margin-left:5px;width: 60px;text-align: center;}
+  .title_name {clear:left; float:left; height:70px; width:300px; margin-left:40px;}
+ .title_itself {font-size:1.5em; text-align:left; color:#FFF; margin:30px 30px 0 0;}
+ */
