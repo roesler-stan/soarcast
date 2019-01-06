@@ -9,7 +9,7 @@ function getForecast(site_score, lat, lng, hourstart, hourend, speedmin_ideal, s
 	    'accept': 'application/json'
 		},
 		error: function (error) {
-			console.log('error at getForecast function: '+error);
+			console.log(error);
 		},
 		success: function (thedata) {
 
@@ -56,8 +56,8 @@ function getForecast(site_score, lat, lng, hourstart, hourend, speedmin_ideal, s
 					speedmax_act = thespeed.substring(0,thespeed.indexOf("mph"));
 				} else {
 					speedmin_act = thespeed.substring(0,thespeed.indexOf("to"));
-					speedmax_actarray = thespeed.match("(^|to)(.*)mph");
-					speedmax_act = speedmax_actarray[2];
+					speedmax_actarray = thespeed.match("to(.*)mph");
+					speedmax_act = speedmax_actarray[1];
 				}
 				speedmin_act = parseInt(speedmin_act);
 				speedmax_act = parseInt(speedmax_act);
@@ -151,6 +151,7 @@ $(document).ready(function() {
 		$("#pine").toggle("slow");
 	});
 
+	// TO DO: use a Google Sheet (which would also be easy to adapt to include user input)
 	var site_score = '';
 	var lat = 0;
 	var lng = 0;
